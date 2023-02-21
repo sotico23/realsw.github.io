@@ -1,0 +1,204 @@
+body{
+    background-image: url(/img/REALSW1.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+color:yellow;
+font-size: 1.2em;}
+
+.nav-buttons {
+    list-style: none; /*quitar los puntos de la lista*/
+    display: flex; /*poner los botones en una fila*/
+    flex-wrap: nowrap; /*evitar que los botones se ajusten automáticamente a la pantalla*/
+    justify-content: space-between; /*alinear los botones horizontalmente*/
+    align-items: center; /*alinear los botones verticalmente*/
+}
+
+.nav-button {
+    background-color: rgba(0, 0, 0, 0.8); /*color oscuro*/
+    color: white; /*color de letra*/
+    padding: 10px 20px; /*espaciado interno*/
+    border-radius: 4px; /*bordes redondos*/
+    text-decoration: none; /*quitar subrayado*/
+    font-size: 14px; /*tamaño de letra*/
+    transition: background-color 0.2s ease-in-out; /*efecto al pasar el cursor*/
+    text-align: center; /*alinear el texto del boton*/
+    margin: 10px; /*espacio entre cada boton*/
+    box-shadow: 0px 0px 10px #000000; /*sombra alrededor del boton*/
+    border: none; /*quitar bordes*/
+  }
+  
+  .nav-button:hover {
+    background-color: rgba(255, 255, 255, 0.2); /*color al pasar el cursor*/
+  }
+
+p { display: inline-block;
+text-decoration: none; /*quitar subrayado*/
+font-size: 14px; /*tamaño de letra*/
+text-align: center; /*alinear el texto del boton*/
+flex-wrap: nowrap; /*evitar que los botones se ajusten automáticamente a la pantalla*/
+padding-left: 5px;
+/* Estilo para los elementos <p> */
+
+  padding: 10px 20px; /* Agrega un padding alrededor del texto */
+  border-radius: 20px; /* Crea bordes redondeados */
+  background-color: #333; /* Color de fondo oscuro */
+  color: #fff; /* Color de texto blanco */
+  font-weight: bold; /* Texto en negrita */
+  transition: background-color 0.2s ease-in-out; /* Animación suave al pasar el mouse */
+  margin: 10px 0; /* Agrega un margen entre los elementos <p> */
+}
+
+/* Estilo para los elementos <p> al pasar el mouse */
+p:hover {
+  background-color: rgb(4, 41, 16); /* Color de fondo un poco más oscuro al pasar el mouse */
+}
+
+span {
+  display: inline-block; /* Muestra el botón como un bloque en línea */
+    padding: 10px 20px; /* Agrega un padding alrededor del texto */
+    border-radius: 20px; /* Crea bordes redondeados */
+    background-color: #333; /* Color de fondo oscuro */
+    color: #fff; /* Color de texto blanco */
+    font-weight: bold; /* Texto en negrita */
+    text-align: center; /* Centra el texto */
+    transition: background-color 0.2s ease-in-out; /* Animación suave al pasar el mouse */
+    margin: 10px; /* Agrega un margen alrededor del botón */
+
+}
+
+span:hover {
+  background-color: rgb(15, 247, 92);; /* Color de fondo un poco más oscuro al pasar el mouse */
+}
+
+nav {
+  position: relative; /* hace que los elementos se desplacen con el resto del contenido */
+  top: 0; /* alinea en la parte superior */
+  left: 0; /* alinea a la izquierda */
+  width: 100%; /* ocupa todo el ancho del contenedor */
+  text-align: center; /* centra el contenido */
+}
+
+nav ul {
+  display: inline-block; /* muestra los elementos en línea */
+  margin: 0 auto; /* centra horizontalmente */
+}
+
+nav ul li {
+  display: inline-block; /* muestra los elementos en línea */
+}
+
+nav ul li a {
+  color: #808080; /* tono gris */
+  text-decoration: none; /* quita la subrayado */
+  font-size: 0.8em; /* reduce el tamaño de la fuente */
+  padding: 5px; /* agrega padding */
+/* muestra el bloque */
+}
+
+nav ul li a:hover {
+  color: #000000; /* tono negro al pasar el cursor */
+}
+
+li{color: yellow;
+font-size: 20px;
+border: solid #ffffff;
+text-align: center;
+/* Estilo para los elementos <li> */
+  list-style-type: none; /* Elimina los puntos de la lista */
+  padding: 10px 20px; /* Agrega un padding alrededor del texto */
+  border-radius: 20px; /* Crea bordes redondeados */
+  background-color: #333; /* Color de fondo oscuro */
+  color: #fff; /* Color de texto blanco */
+  font-weight: bold; /* Texto en negrita */
+  transition: background-color 0.2s ease-in-out; /* Animación suave al pasar el mouse */
+  margin: 10px 0; /* Agrega un margen entre los elementos <li> */
+}
+
+/* Estilo para los elementos <li> al pasar el mouse */
+li:hover {
+  background-color: rgb(15, 247, 92); /* Color de fondo un poco más oscuro al pasar el mouse */
+}
+
+h2{ font-size: 50px;
+  display: inline-block;
+  text-align: center;
+}
+
+
+.contenedor__todo { 
+font-size:  30px;
+text-align: center;
+font-size: 30px;
+}
+
+/* Estilo para los enlaces */
+.boton a {
+    text-decoration: none; /* Elimina la decoración subrayada */
+    padding: 10px 20px; /* Agrega un padding alrededor del texto */
+    border-radius: 20px; /* Crea bordes redondeados */
+    background-color: #333; /* Color de fondo oscuro */
+    color: yellow; /* Color de texto blanco */
+    font-weight: bold; /* Texto en negrita */
+    transition: background-color 0.2s ease-in-out; /* Animación suave al pasar el mouse */
+    margin: 0 10px; /* Agrega un margen entre los enlaces */
+}
+
+/* Estilo para los enlaces al pasar el mouse */
+.boton a:hover {
+    background-color: rgb(196, 6, 6); /* Color de fondo un poco más oscuro al pasar el mouse */
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-container {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid gold;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+footer {
+  max-width: 500px;
+  margin-left: 30%;
+  margin-top: 5%;
+  background-color: #1b1a1a; /* color de fondo gris claro */
+  padding: 1em; /* agrega un espacio interno alrededor del contenido del pie de página */
+  text-align: center; /* alinea el contenido en el centro */
+  font-size: 0.9em; /* establece el tamaño de la fuente en 0.9em (un poco más pequeño que el tamaño predeterminado) */
+  color: rgb(245, 239, 239); /* establece el color de la fuente en gris oscuro */
+}
+
+.footer-container {
+  max-width: 500px; /* establece un ancho máximo para el contenedor */
+  margin: 0 auto; /* centra el contenedor en la página */
+}
+
+.footer-links a {
+  color: rgb(253, 243, 243); /* establece el color de la fuente en gris oscuro */
+  text-decoration: none; /* quita la decoración subrayada de los enlaces */
+  margin-right: 1em; /* agrega un margen a la derecha de los enlaces */
+}
+
+.footer-copyright {
+  margin-top: 1em; /* agrega un margen superior al texto de derechos de autor */
+  font-size: 0.8em; /* establece el tamaño de la fuente en 0.8em (un poco más pequeño que el tamaño predeterminado) */
+}
+
+.footer-links a:hover {
+  color: #006699; /* establece el color de la fuente al pasar el cursor sobre los enlaces */
+  text-decoration: underline; /* agrega un subrayado a los enlaces al pasar el cursor sobre ellos */
+}

@@ -1,0 +1,154 @@
+body {
+    background: linear-gradient(to right, red, white, blue);
+    background-size: 200% auto;
+    animation: color-change 10s ease-in-out infinite;
+    background: linear-gradient(to right, #f5f5dc, #add8e6);
+  }
+  
+  @keyframes color-change {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .nav-buttons {
+    list-style: none; /*quitar los puntos de la lista*/
+    display: flex; /*poner los botones en una fila*/
+    flex-wrap: nowrap; /*evitar que los botones se ajusten automáticamente a la pantalla*/
+    justify-content: space-between; /*alinear los botones horizontalmente*/
+    align-items: center; /*alinear los botones verticalmente*/
+  }
+  
+  .nav-button {
+    background-color: rgba(0, 0, 0, 0.8); /*color oscuro*/
+    color: white; /*color de letra*/
+    padding: 10px 20px; /*espaciado interno*/
+    border-radius: 4px; /*bordes redondos*/
+    text-decoration: none; /*quitar subrayado*/
+    font-size: 14px; /*tamaño de letra*/
+    transition: background-color 0.2s ease-in-out; /*efecto al pasar el cursor*/
+    text-align: center; /*alinear el texto del boton*/
+    margin: 10px; /*espacio entre cada boton*/
+    box-shadow: 0px 0px 10px #000000; /*sombra alrededor del boton*/
+    border: none; /*quitar bordes*/
+  }
+  
+  .nav-button:hover {
+    background-color: rgba(255, 255, 255, 0.2); /*color al pasar el cursor*/
+  }
+
+  /* Estilo para las imágenes */
+.image {
+    width: 200px; /* Ancho de la imagen */
+    height: 200px; /* Alto de la imagen */
+    border-radius: 50%; /* Bordes redondos */
+    border: 2px solid black; /* Bordes negros */
+    object-fit: cover; /* Ajusta la imagen al tamaño del contenedor */
+}
+
+/* Estilo para las filas de imágenes */
+.row {
+    display: flex; /* Utiliza flexbox para organizar las imágenes */
+    flex-wrap: wrap; /* Permite que las imágenes se ajusten a la fila */
+  }
+  
+  /* Estilo para cada contenedor de imagen */
+  .image-container {
+    padding-left: 5px;
+
+    width: 20%; /* Ocupa el 20% del ancho de la fila */
+    margin: 0.8%; /* Margen entre las imágenes */
+  }
+/* Estilo para las etiquetas <p> debajo de las imágenes */
+.image-container p {
+    text-align: center; /* Centra el texto */
+
+    width: 100%; /* Ocupa el ancho completo del contenedor */
+    margin: 0; /* Elimina el margen */
+}
+
+p { display: inline-block;
+text-decoration: none; /*quitar subrayado*/
+font-size: 14px; /*tamaño de letra*/
+text-align: center; /*alinear el texto del boton*/
+flex-wrap: nowrap; /*evitar que los botones se ajusten automáticamente a la pantalla*/
+padding-left: 5px;
+
+}
+
+/* Estilos para la lista de comentarios */
+.comments-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Estilos para cada comentario */
+.comment {
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px #ccc;
+}
+
+/* Estilos para el nombre del usuario */
+.comment-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Estilos para el contenido del comentario */
+.comment-text {
+  font-size: 14px;
+}
+
+
+.text-image-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  height: auto;
+  position: absolute;
+  top: 20%;
+  right: 5%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px #ccc;
+}
+
+.text-image-container {
+  display: flex;
+  width: 200px;
+  height: 400px;
+  position: absolute;
+  top: 20%;
+  right: 2%;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgb(238, 5, 5);
+  flex-wrap:wrap;
+}
+
+.text-container {
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+}
+
+.text-container h2 {
+  margin-bottom: 5px;
+  font-size:12px;
+}
+
+img {
+  width: 100%;
+  height: 50%;
+  border-radius: 10px;
+}
